@@ -31,7 +31,7 @@
     {
       "binding": "DB",
       "database_name": "flaremo",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "2bf690c0-5469-408c-bd7b-c615e7e71376",
       "migrations_dir": "./migrations"
     }
   ],
@@ -89,10 +89,10 @@
     "crons": ["17 3 * * *"]
   },
   "vars": {
-    "FLAREMO_DEPLOY_REPOSITORY": "",
+    "FLAREMO_DEPLOY_REPOSITORY": "catfishlty/FlareMo",
     "FLAREMO_SINGLE_USER_EMAIL": "owner@flaremo.local",
     "FLAREMO_SINGLE_USER_NAME": "FlareMo Owner",
-    "FLAREMO_PUBLIC_URL": "https://flaremo.example.workers.dev",
+    "FLAREMO_PUBLIC_URL": "https://notes.catfish.top",
     "FLAREMO_TRUSTED_ORIGINS": "",
     "FLAREMO_EMBEDDING_PROVIDER": "workers-ai",
     "FLAREMO_EMBEDDING_MODEL": "@cf/qwen/qwen3-embedding-0.6b",
